@@ -1,0 +1,27 @@
+.navbar-items {
+    background: #a0a1a2;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    opacity: 90%;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 8px;
+    list-style: none;
+    text-align: center;
+    width: 100vw;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}

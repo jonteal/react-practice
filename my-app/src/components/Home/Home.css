@@ -1,0 +1,11 @@
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 80%;
+    width: auto;
+    filter: grayscale(100%);
+}
