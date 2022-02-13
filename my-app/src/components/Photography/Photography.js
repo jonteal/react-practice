@@ -2,7 +2,9 @@ import "./Photography.css";
 
 const Photography = () => {
     return (
-        <h1>Photography</h1>
+        <div className="photography">
+            <h1 className="title">Photography</h1>
+        </div>
     )
 }
 

@@ -13,9 +13,9 @@ const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         <nav className="navbar-items">
 
-
-            <h1 className="name">Eric Jackson</h1>
-
+            <div className="name-container">
+                <h1 className="name">Eric Jackson</h1>
+            </div>
 
             {/* Displays the hamburger menu icon when not clicked (in mobile), and the X when it has been clicked */}
             <div className="menu-icon" onClick={handleClick}>

@@ -1,5 +1,6 @@
 .navbar-items {
-    background: #a0a1a2;
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
     height: 50px;
     display: flex;
     justify-content: flex-end;
@@ -19,9 +20,21 @@
     text-align: center;
     width: 100vw;
     justify-content: center;
+    color: whitesmoke;
 }
 
 .name {
+    white-space: nowrap;
+}
+
+.name-container {
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }

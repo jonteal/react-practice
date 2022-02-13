@@ -2,7 +2,9 @@ import "./VisualDesign.css";
 
 const VisualDesign = () => {
     return (
-        <h1>Visual Design</h1>
+        <div className="visual-design">
+            <h1 className="title">Visual Design</h1>
+        </div>
     )
 }
 

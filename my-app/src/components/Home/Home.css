@@ -2,10 +2,12 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: rgb(53, 53, 53);
 }
 
 .profile-pic {
     height: 80%;
     width: auto;
     filter: grayscale(100%);
+    margin-left: 5%;
 }
