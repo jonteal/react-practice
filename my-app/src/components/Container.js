@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
 import Home from "./Home/Home";
-=======
-import Intro from "./Intro/Intro";
->>>>>>> origin/main
 import Navbar from "./Navbar/Navbar";
 import About from "./About/About";
 import Photography from "./Photography/Photography";

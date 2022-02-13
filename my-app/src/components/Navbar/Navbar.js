@@ -13,11 +13,10 @@ const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         <nav className="navbar-items">
 
-<<<<<<< HEAD
+
             <h1 className="name">Eric Jackson</h1>
 
-=======
->>>>>>> origin/main
+
             {/* Displays the hamburger menu icon when not clicked (in mobile), and the X when it has been clicked */}
             <div className="menu-icon" onClick={handleClick}>
                 <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -47,11 +46,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                             onClick={() => handlePageChange('Photography')}
                             className={currentPage === 'Photography' ? 'nav-links nav-link active currentLink' : 'nav-links nav-link'}
                         >
-<<<<<<< HEAD
                         Photography
-=======
-                        Projects
->>>>>>> origin/main
                         </a>
                     </li>
                     <li className="nav-item">
@@ -60,11 +55,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                             onClick={() => handlePageChange('Visual Design')}
                             className={currentPage === 'Visual Design' ? 'nav-links nav-link active currentLink' : 'nav-links nav-link'}
                         >
-<<<<<<< HEAD
                         Visual Design
-=======
-                        Resume
->>>>>>> origin/main
                         </a>
                     </li>
                     <li className="nav-item">
